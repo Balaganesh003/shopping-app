@@ -32,7 +32,8 @@ const App = () => {
   ];
 
   return (
-    <Directory props={categories} />
+
+    <Directory categories={categories} />
   );
 };
 
