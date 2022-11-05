@@ -44,6 +44,7 @@ const PaymentForm = () => {
     const card_element = elements.getElement(CardElement);
 
     const paymentResult = await stripe.confirmCardPayment(client_secret, {
+      description: 'Software development services',
       payment_method: {
         card: card_element,
         billing_details: {
