@@ -48,7 +48,6 @@ const PaymentForm = () => {
         card: card_element,
         billing_details: {
           name: currentUser ? currentUser.displayName : 'Guest',
-          description: 'Software development services',
         },
       },
     });
