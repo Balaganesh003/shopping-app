@@ -3,10 +3,9 @@ import { SpinnerContainer } from '../spinner/spinner.styles';
 
 export const BaseButton = styled.button`
   min-width: 165px;
-  width: auto;
   height: 50px;
+  width: auto;
   letter-spacing: 0.5px;
-  line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 15px;
   background-color: black;
@@ -30,6 +29,8 @@ export const BaseButton = styled.button`
 export const GoogleSignInButton = styled(BaseButton)`
   background-color: #4285f4;
   color: white;
+  font-size: 14px;
+  margin-left: 2rem;
 
   &:hover {
     background-color: #357ae8;
